@@ -1,0 +1,9 @@
+# ide settings
+.idea/
+.vscode/
+
+# deps
+elm-stuff
+
+# dist
+elm.js

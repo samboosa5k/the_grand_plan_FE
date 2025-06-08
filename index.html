@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Test Page</title>
+    </head>
+    <body>
+        <div id="static">
+            <h1>Jasper's Foto Site en Opslag</h1>
+            <!--    img from the public folder-->
+            <img alt="foto van Coco" src="images/coco-2018-1000820.jpg" />
+        </div>
+        <div id="elm-app"></div>
+        <script src="scripts/elm.js"></script>
+        <script>
+            const node = document.getElementById('elm-app');
+            Elm.PhotoAlbum.init({ node: node });
+        </script>
+    </body>
+</html>
